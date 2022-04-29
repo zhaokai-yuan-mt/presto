@@ -67,7 +67,7 @@ RUN wget https://www.atnf.csiro.au/research/pulsar/psrcat/downloads/psrcat_pkg.t
 ENV PSRCAT_FILE /home/soft/psrcat_tar/psrcat.db
     
 # Install tempo
-RUN git clone https://github.com/nanograv/tempo.git && \
+RUN git clone https://github.com/zhaokai-yuan-mt/tempo.git && \
     cd tempo && \
     ./prepare && \
     ./configure && \
